@@ -2,21 +2,16 @@
   "version": 2,
   "build": {
     "env": {
-      "CTF_CDA_ACCESS_TOKEN": "@uZUzv5Y_C6TzjOgeFm9uArLbfildQ5WoItd2LrqSp3E",
-      "CTF_SPACE_ID": "@ag7o93gcwd3c",
-      "CTF_ENVIRONMENT": "@master"
+      "CTF_CDA_ACCESS_TOKEN": "uZUzv5Y_C6TzjOgeFm9uArLbfildQ5WoItd2LrqSp3E",
+      "CTF_SPACE_ID": "ag7o93gcwd3c",
+      "CTF_ENVIRONMENT": "master"
     }
   },
   "builds": [
     {
       "src": "nuxt.config.js",
       "use": "@nuxtjs/now-builder",
-      "config": {},
-      "env": {
-        "CTF_CDA_ACCESS_TOKEN": "uZUzv5Y_C6TzjOgeFm9uArLbfildQ5WoItd2LrqSp3E",
-        "CTF_SPACE_ID": "ag7o93gcwd3c",
-        "CTF_ENVIRONMENT": "master"
-      }
+      "config": {}
     }
   ]
 }
