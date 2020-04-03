@@ -1,0 +1,31 @@
+{
+  "name": "moustaphas-portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "author": "Moustapha Isaac Diaby",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "13.4.0",
+    "@fortawesome/free-brands-svg-icons": "5.13.0",
+    "@fortawesome/free-solid-svg-icons": "5.13.0",
+    "@nuxt/http": "0.3.9",
+    "contentful": "7.14.0",
+    "dialog-polyfill": "0.5.0",
+    "nuxt": "2.12.0",
+    "nuxt-fontawesome": "0.4.0",
+    "reqlim": "0.0.0"
+  },
+  "devDependencies": {
+    "sass-loader": "8.0.x",
+    "node-sass": "4.13.x",
+    "@nuxtjs/style-resources": "1.0.x"
+  },
+  "keywords": []
+}

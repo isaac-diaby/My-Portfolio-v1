@@ -1,0 +1,79 @@
+
+// VARIABLES
+$primary: #050F2E;
+$primary-l: #152040;
+// $primary-lighten: #7D7D7D;
+$secondary: #be9e6b;
+$secondary-d: #7A5800;
+$white: #fafafa;
+
+$breakpoints: (
+  "desktop": 1175px,
+  "tablet": 620px,
+  "mobile": 450px
+);
+@mixin respond-below($breakpoint) {
+
+  // If the breakpoint exists in the map.
+  @if map-has-key($breakpoints, $breakpoint) {
+
+    // Get the breakpoint value.
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    // Write the media query.
+    @media (max-width: ($breakpoint-value - 1)) {
+      @content;
+    }
+
+  // If the breakpoint doesn't exist in the map.
+  } @else {
+
+    // Log a warning.
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $primary;
+  color: $white;
+  font-size: 16px;
+  &::-webkit-scrollbar {
+    width: .4em;
+}
+&::-webkit-scrollbar-track {
+    box-shadow: none;
+    background-color: transparent;
+}
+&::-webkit-scrollbar-thumb {
+  background-color: rgba(mix($primary, $secondary, 70%),.4);
+  // outline: 1px solid slategrey;
+  outline: transparent;
+}
+}
+
+main {
+  section {
+    height: 100vh;
+    display: block; 
+    &:before {
+      padding-top: 3.3em;
+    }
+  }
+}
+
+.container {
+  padding: 1.5em;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
