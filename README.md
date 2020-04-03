@@ -1,7 +1,7 @@
 # This is the code to my portfolio website
 
 It uses uses nuxt to server side render the application and contentful as my content management system (CMS).
-### My portfolio is [here](isaacdiaby.tech)
+### My portfolio is [here](https://isaacdiaby.tech)
 
 ``` bash
 # install dependencies
