@@ -15,7 +15,7 @@
       >Download My Resume</button>
     </div>
     <!-- Replace with an image of myself -->
-    <img defer src="~static/me.png" alt="Image of Moustapha Isaac Diaby">
+    <img defer src="~static/myPicture.png" alt="Image of Moustapha Isaac Diaby">
   </section>
 </template>
 
