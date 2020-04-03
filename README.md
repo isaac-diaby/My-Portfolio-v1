@@ -1,8 +1,7 @@
-# codesandbox-nuxt
+# This is the code to my portfolio website
 
-> Nuxt starter for CodeSandBox (used for https://template.nuxtjs.org)
-
-## Build Setup
+It uses uses nuxt to server side render the application and contentful as my content management system (CMS).
+### My portfolio is [here](isaacdiaby.tech)
 
 ``` bash
 # install dependencies
@@ -18,5 +17,4 @@ $ yarn start
 # generate static project
 $ yarn run generate
 ```
-
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
