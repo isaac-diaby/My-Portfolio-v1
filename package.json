@@ -25,7 +25,8 @@
   "devDependencies": {
     "sass-loader": "8.0.x",
     "node-sass": "4.13.x",
-    "@nuxtjs/style-resources": "1.0.x"
+    "@nuxtjs/style-resources": "1.0.x",
+    "@nuxtjs/now-builder": "0.17.x"
   },
   "keywords": []
 }
