@@ -31,13 +31,13 @@
       </a>
       
       <a
-        href="mailto:isaac.diaby.code@gmail.com?subject=Sent%20from%20your%20website%20portfolio"
+        href="mailto:me@isaacdiaby.tech?subject=Sent%20from%20your%20website%20portfolio"
         target="_blank"
         rel="noopener noreferrer"
       >
         <div>
           <h2>Email</h2>
-          <p>isaac.diaby.code@gmail.com</p>
+          <p style="text-transform: none;">me@isaacdiaby.tech</p>
         </div>
         <font-awesome-icon :icon="['fas', 'envelope']" class="fa-5x"/>
       </a>
