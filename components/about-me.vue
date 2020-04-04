@@ -34,6 +34,10 @@ export default {
     currentTabComponent: function() {
       return this.currentTab.toLowerCase() + "--tab";
     }
+  },
+  mounted() {
+    this.$store.dispatch("portfolio/getAboutMe");
+    this.$store.dispatch("portfolio/getAllExperiences");
   }
 };
 </script>
@@ -41,7 +45,7 @@ export default {
 
 <style lang="scss" scoped>
 #aboutMe {
-  position: relative;
+  position: sticky;
   box-shadow: 0 14px 28px rgba(black, 0.25), 0 10px 10px rgba(black, 0.22);
   background: linear-gradient(180deg, rgba(2,6,19,1) 0%, $primary 100%);
   display: flex;
@@ -96,7 +100,7 @@ export default {
               padding: .5em;
               span {
                 flex-direction: column;
-                writing-mode: lr;
+                writing-mode: unset;
               }
   }
     }

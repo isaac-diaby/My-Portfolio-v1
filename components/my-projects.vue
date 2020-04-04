@@ -42,9 +42,8 @@ export default {
   }),
   methods: {
     openDialog: function(projectData) {
-      const dialogEl = document.getElementById("projectDialog");
-      this.$registerDialog(dialogEl);
       this.dialogData = projectData;
+      const dialogEl = document.getElementById("projectDialog");
       dialogEl.showModal();
       dialogEl.focus();
     },
@@ -55,9 +54,6 @@ export default {
   },
   mounted() {
     this.$store.dispatch("portfolio/getAllProjects");
-    const dialogEl = document.getElementById("projectDialog");
-    this.$registerDialog(dialogEl);
-    // this.$store.dispatch("portfolio/registerDialog");
   }
 };
 </script>
@@ -107,7 +103,7 @@ export default {
     justify-content: center;
     overflow: auto;
     height: 75vh;
-     &::-webkit-scrollbar {
+    &::-webkit-scrollbar {
     width: .4em;
     }
     &::-webkit-scrollbar-track {

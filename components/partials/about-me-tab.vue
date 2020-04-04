@@ -16,9 +16,6 @@ export default {
         return documentToHtmlString(this.aboutme.fields.aboutMe);
       }
     }
-  },
-  mounted() {
-    this.$store.dispatch("portfolio/getAboutMe");
   }
 };
 </script>

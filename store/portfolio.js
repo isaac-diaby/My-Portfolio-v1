@@ -1,11 +1,11 @@
 import { createClient } from "~/plugins/contentful";
 
 const contentfulClient = createClient();
-export const state = {
+export const state = () => ({
   projects: null,
   experiences: null,
   aboutme: null
-};
+});
 
 export const mutations = {
   setAllProjects(state, data) {

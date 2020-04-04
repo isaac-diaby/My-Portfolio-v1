@@ -50,6 +50,12 @@ export default {
     HTMLDescription: function() {
       return documentToHtmlString(this.description);
     }
+  },
+  mounted() {
+    // if (process.client) {
+    const dialogEl = document.getElementById("projectDialog");
+    this.$registerDialog(dialogEl);
+    // }
   }
 };
 </script>
@@ -68,6 +74,7 @@ dialog {
   overflow: hidden;
   max-height: 80vh;
   padding: 0;
+  background-color: $white;
 
   &[open] {
     display: block;
@@ -137,7 +144,7 @@ dialog {
       background-color: $secondary;
     }
   }
-  &::backdrop {
+  &::backdrop, & + .backdrop {
     background-color: rgba(black, 0.4);
   }
 }

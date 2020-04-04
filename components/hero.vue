@@ -39,6 +39,9 @@ export default {
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
+  @include respond-below("desktop") {
+    height: auto;
+  }
   @include respond-below("tablet") {
     font-size: 9px;
   }
@@ -104,8 +107,11 @@ export default {
     overflow: hidden;
     object-fit: cover;
     @include respond-below("desktop") {
-      position: absolute;
       opacity: 0.3;
+      height: 100%;
+      position: absolute;
+      margin: auto;
+      z-index: -1;
     }
     @include respond-below("tablet") {
       display: none;

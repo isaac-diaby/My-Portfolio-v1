@@ -20,7 +20,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Hello i'm Moustapha Isaac Diaby. This is my portfolio"
+        content: "Hello, i'm Moustapha Isaac Diaby and this is my portfolio"
       }
     ],
     link: [
@@ -38,7 +38,10 @@ export default {
    ** Plugins to load before mounting the App
    ** Doc: https://nuxtjs.org/guide/plugins
    */
-  plugins: [{ src: "~/plugins/google-dialog", mode: "client" }],
+  plugins: [
+    // "~/plugins/google-dialog.js",
+    { src: "~/plugins/google-dialog.js", mode: "client" }
+  ],
 
   /*
    ** Nuxt.js modules

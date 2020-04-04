@@ -21,9 +21,6 @@ export default {
   },
   computed: {
     ...mapState("portfolio", ["experiences"])
-  },
-  mounted() {
-    this.$store.dispatch("portfolio/getAllExperiences");
   }
 };
 </script>

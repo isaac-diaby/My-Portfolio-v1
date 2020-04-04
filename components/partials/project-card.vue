@@ -36,14 +36,19 @@ export default {
 
 <style lang="scss" scoped>
 .project__card {
-  width: 450px;
+  width: 350px;
   color: $white;
   background-color: $primary-l;
   overflow: hidden;
   margin: 2em;
   border-radius: 5% 5% 0 0;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: initial;
+  @include respond-below("mobile") {
+    height: 90vh;
+  }
   &__thumbnail {
     width: 100%;
     img {
@@ -52,9 +57,10 @@ export default {
     }
   }
   .container {
-    margin: 0 1em 1em;
+    padding: 0 1em 1em;
     display: flex;
     flex-direction: column;
+    height: 100%;
   }
   &__title {
     font-family: "Jomolhari", serif;
