@@ -60,7 +60,7 @@ export default {
     padding: 0 1em 1em;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    overflow: auto;
   }
   &__title {
     font-family: "Jomolhari", serif;

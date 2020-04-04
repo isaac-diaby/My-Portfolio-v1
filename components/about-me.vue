@@ -80,7 +80,7 @@ export default {
       text-align: center;
       cursor: pointer;
       font-size: 1.2em;
-      width: fit-content;
+      width: -webkit-fill-available;
       transition: background 250ms ease-in-out, transform 150ms ease,
         all 250ms ease-in-out;
             span {
