@@ -40,7 +40,7 @@ export const actions = {
     contentfulClient
       .getEntries({
         content_type: "experiences",
-        order: "fields.startDate"
+        order: "-fields.startDate"
       })
       .then(res => {
         if (res) {
