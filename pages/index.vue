@@ -35,6 +35,6 @@ export default {
 
 footer {
   width: fit-content;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 </style>

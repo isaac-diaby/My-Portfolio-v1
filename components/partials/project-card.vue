@@ -40,15 +40,15 @@ export default {
   color: $white;
   background-color: $primary-l;
   overflow: hidden;
-  margin: 2em;
-  border-radius: 5% 5% 0 0;
+  margin: 1rem;
+  border-radius: 1rem 1rem 0 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   height: initial;
-  @include respond-below("mobile") {
+  /* @include respond-below("mobile") {
     height: 90vh;
-  }
+  } */
   &__thumbnail {
     width: 100%;
     img {
@@ -64,6 +64,7 @@ export default {
   }
   &__title {
     font-family: "Jomolhari", serif;
+    margin-bottom: 0;
   }
   &__tags {
     display: flex;

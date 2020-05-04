@@ -40,6 +40,7 @@ export default {
    */
   plugins: [
     // "~/plugins/google-dialog.js",
+    { src: "~plugins/ga.js", mode: "client" },
     { src: "~/plugins/google-dialog.js", mode: "client" }
   ],
 

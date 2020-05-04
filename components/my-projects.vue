@@ -102,7 +102,7 @@ export default {
     flex-flow: row wrap;
     justify-content: center;
     overflow: auto;
-    height: 75vh;
+    max-height: -webkit-fill-available;
     &::-webkit-scrollbar {
     width: .4em;
     }
