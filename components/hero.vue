@@ -6,7 +6,7 @@
         <span class="hero__name">Moustapha</span>
         <span class="hero__name">Isaac Diaby</span>
         <!--    TODO: add animation of other things i do        -->
-        <span class="hero__title">Software Developer</span>
+        <span class="hero__title">Software Developer | Ethical Hacker</span>
       </h1>
       <button
         class="hero__action"
@@ -83,7 +83,8 @@ export default {
     border: 2px solid rgba($secondary, 0.5);
     transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     color: $white;
-    margin-top: 9rem;
+    margin-top: 10vh;
+    /* margin-top: 9rem; */
     padding: 1em;
     background-color: transparent;
     &:hover {

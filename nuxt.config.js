@@ -23,6 +23,12 @@ export default {
         content: "Hello, i'm Moustapha Isaac Diaby and this is my portfolio"
       }
     ],
+    // script: [
+    //   {
+    //     src: `https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js`,
+    //     body: true
+    //   }
+    // ],
     link: [
       // { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
     ]

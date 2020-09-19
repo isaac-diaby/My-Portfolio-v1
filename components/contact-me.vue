@@ -25,9 +25,17 @@
       <a href="https://www.instagram.com/isaac_diaby/" target="_blank" rel="noopener noreferrer">
         <div>
           <h2>Instagram</h2>
-          <p>best way to get to know</p>
+          <p>Best way to get to know</p>
         </div>
         <font-awesome-icon :icon="['fab', 'instagram-square']" class="fa-5x"/>
+      </a>
+      
+      <a href="https://twitter.com/IsaacDiaby4Real" target="_blank" rel="noopener noreferrer">
+        <div>
+          <h2>Twitter</h2>
+          <p>Update on what im doing</p>
+        </div>
+        <font-awesome-icon :icon="['fab', 'twitter-square']" class="fa-5x"/>
       </a>
       
       <a

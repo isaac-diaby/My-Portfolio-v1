@@ -81,6 +81,7 @@ export default {
       cursor: pointer;
       font-size: 1.2em;
       width: -webkit-fill-available;
+      min-width: 40px;
       transition: background 250ms ease-in-out, transform 150ms ease,
         all 250ms ease-in-out;
             span {
@@ -90,7 +91,7 @@ export default {
         
       &:not(.tab__link--active):hover {
         background-color: $secondary-d;
-        padding: 0 1em;
+        padding: 0 .5em;
       }
       &:focus {
         outline: none;
