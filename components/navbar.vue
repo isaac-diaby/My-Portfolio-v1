@@ -4,6 +4,9 @@
       <h1>Portfolio</h1>
       <div class="nav__links">
         <nuxt-link to="#aboutMe" class="nav__link">About</nuxt-link>
+        <a href="https://medium.com/@midiaby" class="nav__link" target="_blank" rel="noopener noreferrer">
+        Blog
+      </a>
         <nuxt-link to="#myProjects" class="nav__link">Projects</nuxt-link>
         <nuxt-link to="#contachtMe" class="nav__link">Contact Me</nuxt-link>
       </div>

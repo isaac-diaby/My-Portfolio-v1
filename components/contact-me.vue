@@ -37,7 +37,13 @@
         </div>
         <font-awesome-icon :icon="['fab', 'twitter-square']" class="fa-5x"/>
       </a>
-      
+      <a href="https://www.youtube.com/channel/UCdXDvL_csGUnBGf1chA5ynA" target="_blank" rel="noopener noreferrer">
+        <div>
+          <h2>Youtube</h2>
+          <p>Sharing my Knowledge</p>
+        </div>
+        <font-awesome-icon :icon="['fab', 'youtube']" class="fa-5x"/>
+      </a>
       <a
         href="mailto:me@isaacdiaby.tech?subject=Sent%20from%20your%20website%20portfolio"
         target="_blank"

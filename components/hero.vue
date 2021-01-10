@@ -6,7 +6,7 @@
         <span class="hero__name">Moustapha</span>
         <span class="hero__name">Isaac Diaby</span>
         <!--    TODO: add animation of other things i do        -->
-        <span class="hero__title">Software Developer | Ethical Hacker</span>
+        <span class="hero__title">Software Developer | Ethical Hacker | Investor | Creator</span>
       </h1>
       <button
         class="hero__action"
@@ -76,7 +76,7 @@ export default {
   &__title {
     display: block;
     color: $white;
-    font-size: 0.7em;
+    font-size: 0.4em;
     font-weight: normal;
   }
   &__action {
@@ -107,7 +107,7 @@ export default {
     object-fit: cover;
     @include respond-below("desktop") {
       opacity: 0.3;
-      height: 100%;
+      height: 80;
       position: absolute;
       margin: auto;
       z-index: -1;

@@ -32,5 +32,8 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+.aboutme__timeline__title {
+  color: $secondary-d;
+}
 </style>
