@@ -4,6 +4,20 @@
     <!-- <h1>How to contact me</h1> -->
     <div class="contactMe__social">
       <!-- FIXME: icons dont work -->
+      
+      <a
+        href="https://calendly.com/midiaby"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div>
+          <h2>Calendly</h2>
+          <p>Book a call session with me</p>
+        </div>
+        <font-awesome-icon :icon="['fa', 'calendar']" class="fa-5x"/>
+      </a>
+      
+      
       <a href="https://github.com/isaac-diaby" target="_blank" rel="noopener noreferrer">
         <div>
           <h2>GitHub</h2>
